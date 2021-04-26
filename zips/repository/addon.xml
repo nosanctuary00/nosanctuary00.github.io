@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository" name="NoSanctuary00 Repository" version="1.0" provider-name="nosanctuary00">
+    <extension point="xbmc.addon.repository" name="NoSanctuary00 Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/nosanctuary00/repository/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nosanctuary00/repository/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nosanctuary00/repository/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>NoSanctuary00 Repository</summary>
+        <description>Repository for Kodi Addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
